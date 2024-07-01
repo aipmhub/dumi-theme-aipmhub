@@ -1,4 +1,4 @@
-import { Header as Head } from '@lobehub/ui';
+import { Header as Head } from '@aipmui/ui';
 import { useResponsive } from 'antd-style';
 import { memo } from 'react';
 

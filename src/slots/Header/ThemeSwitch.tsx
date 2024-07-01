@@ -1,4 +1,4 @@
-import { ThemeSwitch as ThemeSwitchButton } from '@lobehub/ui';
+import { ThemeSwitch as ThemeSwitchButton } from '@aipmui/ui';
 import { usePrefersColor } from 'dumi';
 import { memo, useEffect } from 'react';
 

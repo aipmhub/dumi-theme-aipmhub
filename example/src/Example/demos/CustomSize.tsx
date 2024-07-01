@@ -1,4 +1,4 @@
-import { ActionIcon, ActionIconProps, StoryBook, useControls, useCreateStore } from '@lobehub/ui';
+import { ActionIcon, ActionIconProps, StoryBook, useControls, useCreateStore } from '@aipmui/ui';
 import { Settings } from 'lucide-react';
 
 export default () => {

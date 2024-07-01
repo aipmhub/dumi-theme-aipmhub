@@ -1,4 +1,4 @@
-import { type FeatureItem, type HeroAction } from '@lobehub/ui';
+import { type FeatureItem, type HeroAction } from '@aipmui/ui';
 
 export type ImageContainerType = 'light' | 'primary' | 'soon';
 

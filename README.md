@@ -2,13 +2,13 @@
 
 <div align="center">
 
-<img height="120" src="https://registry.npmmirror.com/@lobehub/assets-logo/latest/files/assets/logo-3d.webp">
+<img height="120" src="https://registry.npmmirror.com/@aipmui/assets-logo/latest/files/assets/logo-3d.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
 <img height="120" src="https://gw.alipayobjects.com/zos/bmw-prod/d3e3eb39-1cd7-4aa5-827c-877deced6b7e/lalxt4g3_w256_h256.png">
 
-<h1>Dumi Theme Lobehub</h1>
+<h1>Dumi Theme AiPMhub</h1>
 
-dumi-theme-lobehub is a documentation site theme package designed for `Dumi 2`. <br/>It provides a more beautiful and user-friendly development and reading experience based on `@lobehub/ui`
+dumi-theme-aipmhub is a documentation site theme package designed for `Dumi 2`. <br/>It provides a more beautiful and user-friendly development and reading experience based on `@aipmui/ui`
 
 [![][npm-release-shield]][npm-release-link]
 [![][github-releasedate-shield]][github-releasedate-link]
@@ -33,7 +33,7 @@ dumi-theme-lobehub is a documentation site theme package designed for `Dumi 2`. 
 
 - [✨ Features](#-features)
 - [📦 Installation](#-installation)
-- [🤯 Usage](#-usage)
+- [🌿 Usage](#-usage)
 - [⌨️ Local Development](#️-local-development)
 - [🤝 Contributing](#-contributing)
 - [🔗 Links](#-links)
@@ -48,7 +48,7 @@ dumi-theme-lobehub is a documentation site theme package designed for `Dumi 2`. 
 
 ## ✨ Features
 
-- [x] 🤯 **Modern Theme Style:** This theme package adopts modern design techniques such as gradient colors, frosted glass, lighting effects, and natural animations to present the interface in a more concise and visually appealing way, making the documents more intuitive, readable, and user-friendly.
+- [x] 🌿 **Modern Theme Style:** This theme package adopts modern design techniques such as gradient colors, frosted glass, lighting effects, and natural animations to present the interface in a more concise and visually appealing way, making the documents more intuitive, readable, and user-friendly.
 - [x] 🌓 **One-click Switch between Light and Dark Theme Mode:** Based on antd v5, custom algorithms for light and dark themes are provided by default, offering aesthetically pleasing and user-friendly options. Users can choose the theme mode according to their preferences and enjoy a good reading experience in different lighting environments.
 - [x] 💅 **Based on Ant Design and CSSinJS:** This theme package uses antd as the base component library and implements the style solution using CSSinJS, which helps to better control the style details and improve style reusability and maintainability. The underlying antd-style library provides more flexibility, readability, and ease of maintenance in writing styles.
 - [x] 🪄 **Exquisite Syntax Highlighting:** This theme package provides accurate and beautiful syntax highlighting. It utilizes modern syntax highlighting libraries like Shiki and Prism, and offers a rich set of code highlighting schemes to enhance code readability.
@@ -63,12 +63,12 @@ dumi-theme-lobehub is a documentation site theme package designed for `Dumi 2`. 
 
 ## 📦 Installation
 
-To install `dumi-theme-lobehub`, run the following command:
+To install `dumi-theme-aipmhub`, run the following command:
 
 [![][bun-shield]][bun-link]
 
 ```bash
-$ bun add dumi dumi-theme-lobehub
+$ bun add dumi dumi-theme-aipmhub
 ```
 
 <div align="right">
@@ -77,7 +77,7 @@ $ bun add dumi dumi-theme-lobehub
 
 </div>
 
-## 🤯 Usage
+## 🌿 Usage
 
 Usage After installation, start the site with `dumi`, and the theme will be automatically loaded for use.
 
@@ -111,7 +111,7 @@ interface SiteThemeConfig {
 ```
 
 > \[!NOTE]\
-> For detailed configuration, please refer to the [📘 Type file](https://github.com/lobehub/dumi-theme-lobehub/blob/master/src/types/config.ts) / [📘 Example](https://github.com/lobehub/dumi-theme-lobehub/blob/master/example/.dumirc.ts).
+> For detailed configuration, please refer to the [📘 Type file](https://github.com/aipmhub/dumi-theme-aipmhub/blob/master/src/types/config.ts) / [📘 Example](https://github.com/aipmhub/dumi-theme-aipmhub/blob/master/example/.dumirc.ts).
 
 <div align="right">
 
@@ -128,8 +128,8 @@ You can use Github Codespaces for online development:
 Or clone it for local development:
 
 ```bash
-$ git clone https://github.com/lobehub/dumi-theme-lobehub.git
-$ cd dumi-theme-lobehub
+$ git clone https://github.com/aipmhub/dumi-theme-aipmhub.git
+$ cd dumi-theme-aipmhub
 $ bun install
 $ bun dev
 ```
@@ -158,9 +158,9 @@ Contributions of all types are more than welcome, if you are interested in contr
 
 ### More Products
 
-- **[🍭 Lobe UI](https://github.com/lobehub/lobe-ui)** - An open-source UI component library for building AIGC web apps.
-- **[🤖 Lobe Chat](https://github.com/lobehub/lobe-chat)** - An open-source, extensible (Function Calling), high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application.
-- **[🤯 Lobe Theme](https://github.com/lobehub/sd-webui-lobe-theme)** - The modern theme for stable diffusion webui, exquisite interface design, highly customizable UI, and efficiency boosting features.
+- **[🍭 AiPM UI](https://github.com/aipmhub/aipm-ui)** - An open-source UI component library for building AIGC web apps.
+- **[🤖 AiPM Chat](https://github.com/aipmhub/aipm-chat)** - An open-source, extensible (Function Calling), high-performance chatbot framework. It supports one-click free deployment of your private ChatGPT/LLM web application.
+- **[🌿 AiPM Theme](https://github.com/aipmhub/sd-webui-aipm-theme)** - The modern theme for stable diffusion webui, exquisite interface design, highly customizable UI, and efficiency boosting features.
 
 <div align="right">
 
@@ -172,7 +172,7 @@ Contributions of all types are more than welcome, if you are interested in contr
 
 #### 📝 License
 
-Copyright © 2023 [LobeHub][profile-link]. <br />
+Copyright © 2024 [AiPMHub][profile-link]. <br />
 This project is [MIT](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
@@ -180,28 +180,28 @@ This project is [MIT](./LICENSE) licensed.
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-black?style=flat-square
 [bun-link]: https://bun.sh
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
-[github-action-release-link]: https://github.com/lobehub/dumi-theme-lobehub/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/dumi-theme-lobehub/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/lobehub/dumi-theme-lobehub/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/dumi-theme-lobehub/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-codespace-link]: https://codespaces.new/lobehub/dumi-theme-lobehub
+[github-action-release-link]: https://github.com/aipmhub/dumi-theme-aipmhub/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/aipmhub/dumi-theme-aipmhub/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/aipmhub/dumi-theme-aipmhub/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/aipmhub/dumi-theme-aipmhub/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-codespace-link]: https://codespaces.new/aipmhub/dumi-theme-aipmhub
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
-[github-contrib-link]: https://github.com/lobehub/dumi-theme-lobehub/graphs/contributors
-[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fdumi-theme-lobehub
-[github-contributors-link]: https://github.com/lobehub/dumi-theme-lobehub/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/dumi-theme-lobehub?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/lobehub/dumi-theme-lobehub/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/lobehub/dumi-theme-lobehub?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/lobehub/dumi-theme-lobehub/issues
-[github-issues-shield]: https://img.shields.io/github/issues/lobehub/dumi-theme-lobehub?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/lobehub/dumi-theme-lobehub/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/lobehub/dumi-theme-lobehub?color=white&labelColor=black&style=flat-square
-[github-releasedate-link]: https://github.com/lobehub/dumi-theme-lobehub/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/dumi-theme-lobehub?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/lobehub/dumi-theme-lobehub/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/lobehub/dumi-theme-lobehub?color=ffcb47&labelColor=black&style=flat-square
-[npm-release-link]: https://www.npmjs.com/package/@lobehub/chat
-[npm-release-shield]: https://img.shields.io/npm/v/@lobehub/chat?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
-[pr-welcome-link]: https://github.com/lobehub/dumi-theme-lobehub/pulls
+[github-contrib-link]: https://github.com/aipmhub/dumi-theme-aipmhub/graphs/contributors
+[github-contrib-shield]: https://contrib.rocks/image?repo=aipmhub%2Fdumi-theme-aipmhub
+[github-contributors-link]: https://github.com/aipmhub/dumi-theme-aipmhub/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/aipmhub/dumi-theme-aipmhub?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/aipmhub/dumi-theme-aipmhub/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/aipmhub/dumi-theme-aipmhub?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/aipmhub/dumi-theme-aipmhub/issues
+[github-issues-shield]: https://img.shields.io/github/issues/aipmhub/dumi-theme-aipmhub?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/aipmhub/dumi-theme-aipmhub/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/aipmhub/dumi-theme-aipmhub?color=white&labelColor=black&style=flat-square
+[github-releasedate-link]: https://github.com/aipmhub/dumi-theme-aipmhub/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/aipmhub/dumi-theme-aipmhub?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/aipmhub/dumi-theme-aipmhub/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/aipmhub/dumi-theme-aipmhub?color=ffcb47&labelColor=black&style=flat-square
+[npm-release-link]: https://www.npmjs.com/package/@aipmorg/chat
+[npm-release-shield]: https://img.shields.io/npm/v/@aipmorg/chat?color=369eff&labelColor=black&logo=npm&logoColor=white&style=flat-square
+[pr-welcome-link]: https://github.com/aipmhub/dumi-theme-aipmhub/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20PR%20WELCOME-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
-[profile-link]: https://github.com/lobehub
+[profile-link]: https://github.com/aipmhub

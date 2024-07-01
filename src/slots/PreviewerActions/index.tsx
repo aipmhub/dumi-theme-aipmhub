@@ -1,4 +1,4 @@
-import { ActionIcon, TabsNav } from '@lobehub/ui';
+import { ActionIcon, TabsNav } from '@aipmui/ui';
 import { type IPreviewerProps, openCodeSandbox, openStackBlitz, useIntl } from 'dumi';
 import { Code, Code2, Codesandbox, MonitorUp, Zap } from 'lucide-react';
 import { type FC, type ReactNode, useState } from 'react';

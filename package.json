@@ -1,22 +1,22 @@
 {
-  "name": "dumi-theme-lobehub",
+  "name": "dumi-theme-aipmhub",
   "version": "1.8.0",
-  "description": "dumi-theme-lobehub is a documentation site theme package designed for dumi2. It provides a more beautiful and user-friendly development and reading experience based on @lobehub/ui",
+  "description": "dumi-theme-aipmhub is a documentation site theme package designed for dumi2. It provides a more beautiful and user-friendly development and reading experience based on @aipmui/ui",
   "keywords": [
-    "lobehub",
+    "aipmhub",
     "dumi",
     "dumi theme"
   ],
-  "homepage": "https://github.com/lobehub/dumi-theme-lobehub",
+  "homepage": "https://github.com/aipmhub/dumi-theme-aipmhub",
   "bugs": {
-    "url": "https://github.com/lobehub/dumi-theme-lobehub/issues/new"
+    "url": "https://github.com/aipmhub/dumi-theme-aipmhub/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lobehub/dumi-theme-lobehub.git"
+    "url": "https://github.com/aipmhub/dumi-theme-aipmhub.git"
   },
   "license": "MIT",
-  "author": "LobeHub <i@lobehub.com>",
+  "author": "AiPMHub <nextprofessionalpower@gmail.com>",
   "sideEffects": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -69,9 +69,9 @@
     ]
   },
   "dependencies": {
+    "@aipmui/ui": "^1.142.4",
     "@floating-ui/react": "^0.26.17",
     "@giscus/react": "^2.4.0",
-    "@lobehub/ui": "^1.142.4",
     "ahooks": "^3.8.0",
     "antd": "^5.18.2",
     "antd-style": "^3.6.2",
@@ -87,8 +87,8 @@
     "zustand": "^4.5.2"
   },
   "devDependencies": {
+    "@aipmorg/lint": "^1.23.4",
     "@commitlint/cli": "^19.3.0",
-    "@lobehub/lint": "^1.23.4",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",

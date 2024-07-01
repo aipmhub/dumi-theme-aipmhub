@@ -26,26 +26,26 @@ const themeConfig = {
     sourceUrl: `{github}/tree/master/src/{atomId}/index.tsx`,
     type: 'doc',
   },
-  description: 'Lobe UI is an open-source UI component library for building chatbot web apps',
-  footer: 'Made with 🤯 by LobeHub',
+  description: 'AiPM UI is an open-source UI component library for building chatbot web apps',
+  footer: 'Made with 🌿 by AiPMHub',
   giscus: {
     category: 'Q&A',
-    categoryId: 'DIC_kwDOJloKoM4CXsCu',
-    repo: 'lobehub/lobe-ui',
-    repoId: 'R_kgDOJloKoA',
+    categoryId: 'DIC_kwDOMNDKq84Cgci4',
+    repo: 'aipmhub/aipm-ui',
+    repoId: 'R_kgDOMNDKqw',
   },
   name: 'DUMI',
   socialLinks: {
-    discord: 'https://discord.gg/AYFPHvv2jT',
+    discord: 'https://discord.gg/sYB5zSyD',
     github: homepage,
   },
-  title: 'Dumi Theme LobeHub',
+  title: 'Dumi Theme AiPMHub',
 };
 
 export default defineConfig({
   alias: {
     '@': resolve(__dirname, '../src'),
-    'dumi-theme-lobehub': resolve(__dirname, '../src'),
+    'dumi-theme-aipmhub': resolve(__dirname, '../src'),
   },
   codeSplitting: {
     jsStrategy: 'granularChunks',
@@ -53,7 +53,7 @@ export default defineConfig({
   define: {
     'process.env': process.env,
   },
-  favicons: ['https://npm.elemecdn.com/@lobehub/assets-favicons/assets/favicon.ico'],
+  favicons: ['https://npm.elemecdn.com/@aipmui/assets-favicons/assets/favicon.ico'],
   locales: [{ id: 'en-US', name: 'English' }],
   mfsu: isWin ? undefined : {},
   npmClient: 'pnpm',
@@ -66,5 +66,5 @@ export default defineConfig({
   }`,
   ],
   themeConfig,
-  title: 'Dumi Theme LobeHub',
+  title: 'Dumi Theme AiPMHub',
 });

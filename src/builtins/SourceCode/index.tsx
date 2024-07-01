@@ -1,4 +1,4 @@
-import { Highlighter } from '@lobehub/ui';
+import { Highlighter } from '@aipmui/ui';
 import { useTheme } from 'antd-style';
 import { rgba } from 'polished';
 import { FC } from 'react';

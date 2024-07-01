@@ -1,4 +1,4 @@
-import { Features } from '@lobehub/ui';
+import { Features } from '@aipmui/ui';
 import { MoonStar, Palette, Zap } from 'lucide-react';
 
 export default () => (
@@ -18,7 +18,7 @@ export default () => (
       },
       {
         description:
-          'Automatic dark mode recognition, LobeUI automatically changes the theme when detects HTML theme prop changes.',
+          'Automatic dark mode recognition, AiPMUI automatically changes the theme when detects HTML theme prop changes.',
         icon: MoonStar,
         title: 'Light & Dark UI',
       },

@@ -1,4 +1,4 @@
-import { Layout } from '@lobehub/ui';
+import { Layout } from '@aipmui/ui';
 import { useResponsive, useTheme } from 'antd-style';
 import { Helmet, useIntl, useLocation } from 'dumi';
 import isEqual from 'fast-deep-equal';

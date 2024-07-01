@@ -1,4 +1,4 @@
-import { Toc as T } from '@lobehub/ui';
+import { Toc as T } from '@aipmui/ui';
 import { useResponsive, useTheme } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { memo, useEffect, useState } from 'react';

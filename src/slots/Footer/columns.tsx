@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@aipmui/ui';
 import { Link } from 'dumi';
 import { Bug, FileClock, GitFork, Github } from 'lucide-react';
 import { FooterColumn, FooterColumnItem } from 'rc-footer/es/column';
@@ -12,20 +12,20 @@ export const getColumns = ({ github }: GetColumnParameters) => {
       {
         description: 'AIGC Components',
         openExternal: true,
-        title: 'Lobe UI',
-        url: 'https://github.com/lobehub/lobe-ui',
+        title: 'AiPM UI',
+        url: 'https://github.com/aipmhub/aipm-ui',
       },
       {
         description: 'Awesome lint configs',
         openExternal: true,
-        title: 'Lobe Lint',
-        url: 'https://github.com/lobehub/lobe-chat',
+        title: 'AiPM Lint',
+        url: 'https://github.com/aipmhub/aipm-lint',
       },
       {
-        description: 'Lobe Dumi Theme',
+        description: 'AiPM Dumi Theme',
         openExternal: true,
         title: 'Designed for Dumi 2',
-        url: 'https://github.com/lobehub/lobe-flow',
+        url: 'https://github.com/aipmhub/dumi-theme-aipmhub',
       },
     ],
     title: 'Resources',
@@ -69,34 +69,22 @@ export const getColumns = ({ github }: GetColumnParameters) => {
   const more: FooterColumn = {
     items: [
       {
-        description: 'OpenAI Chat Bot',
+        description: 'Chat Bot',
         openExternal: true,
-        title: '🤖 Lobe Chat',
-        url: 'https://github.com/lobehub/lobe-chat',
+        title: '🤖 AiPM Chat',
+        url: 'https://github.com/aipmhub/aipm-chat',
       },
       {
-        description: 'Stable Diffusion Extension',
+        description: '📄 Feishu Documents',
         openExternal: true,
-        title: '🤯 Lobe Theme',
-        url: 'https://github.com/lobehub/sd-webui-lobe-theme',
+        title: '📝 AiPM Community',
+        url: 'https://roadmaps.feishu.cn/wiki/RykrwFxPiiU4T7kZ63bc7Lqdnch',
       },
       {
         description: 'Gen intelligently',
         openExternal: true,
-        title: '📝 Readme Generator',
-        url: 'https://ui.lobehub.com',
-      },
-      {
-        description: 'AI Commit CLI',
-        openExternal: true,
-        title: '💌 Lobe Commit',
-        url: 'https://github.com/lobehub/lobe-commit',
-      },
-      {
-        description: 'AI i18n CLI',
-        openExternal: true,
-        title: '🌐 Lobe i18n',
-        url: 'https://github.com/lobehub/lobe-commit',
+        title: '🌿 AiPM Official',
+        url: 'https://www.theforage.cn',
       },
     ],
     title: 'More Products',

@@ -1,4 +1,4 @@
-import { type FeatureItem } from '@lobehub/ui';
+import { type FeatureItem } from '@aipmui/ui';
 
 import { SiteStore } from '../useSiteStore';
 

@@ -1,4 +1,4 @@
-import { Giscus } from '@lobehub/ui';
+import { Giscus } from '@aipmui/ui';
 import { useResponsive } from 'antd-style';
 import { useOutlet } from 'dumi';
 import { memo, useCallback, useEffect } from 'react';
@@ -32,7 +32,7 @@ const Documents = memo(() => {
           <Giscus
             category={giscus.category}
             categoryId={giscus.categoryId}
-            id="lobehub"
+            id="aipmhub"
             mapping="title"
             repo={giscus.repo}
             repoId={giscus.repoId}

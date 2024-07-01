@@ -1,4 +1,4 @@
-import { ActionIcon } from '@lobehub/ui';
+import { ActionIcon } from '@aipmui/ui';
 import { createStyles } from 'antd-style';
 import { type LucideIcon, createLucideIcon } from 'lucide-react';
 import { memo } from 'react';

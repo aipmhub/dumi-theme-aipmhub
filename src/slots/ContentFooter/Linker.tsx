@@ -1,4 +1,4 @@
-import { Icon } from '@lobehub/ui';
+import { Icon } from '@aipmui/ui';
 import { Link } from 'dumi';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { memo, useMemo } from 'react';

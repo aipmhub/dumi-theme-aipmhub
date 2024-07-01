@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@lobehub/ui';
+import { ThemeProvider } from '@aipmui/ui';
 import { memo } from 'react';
 import { shallow } from 'zustand/shallow';
 

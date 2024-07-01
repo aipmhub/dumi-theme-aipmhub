@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@lobehub/ui';
+import { ThemeProvider } from '@aipmui/ui';
 import { useOutlet } from 'dumi';
 import isEqual from 'fast-deep-equal';
 import { memo } from 'react';

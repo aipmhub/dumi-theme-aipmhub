@@ -1,4 +1,4 @@
-import { Footer as Foot, FooterProps } from '@lobehub/ui';
+import { Footer as Foot, FooterProps } from '@aipmui/ui';
 import { Divider } from 'antd';
 import { useResponsive } from 'antd-style';
 import isEqual from 'fast-deep-equal';
@@ -34,7 +34,7 @@ const Footer = memo(() => {
       bottom={
         mobile ? (
           <Center className={styles.container}>
-            Copyright © 2022-{new Date().getFullYear()}
+            Copyright © {new Date().getFullYear()}
             <Flexbox
               align={'center'}
               dangerouslySetInnerHTML={{ __html: bottomFooter }}
@@ -43,7 +43,7 @@ const Footer = memo(() => {
           </Center>
         ) : (
           <Center horizontal>
-            Copyright © 2022-{new Date().getFullYear()} <Divider type={'vertical'} />
+            Copyright © {new Date().getFullYear()} <Divider type={'vertical'} />
             <span dangerouslySetInnerHTML={{ __html: bottomFooter }} />
           </Center>
         )

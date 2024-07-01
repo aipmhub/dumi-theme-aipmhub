@@ -1,4 +1,4 @@
-import { Typography } from '@lobehub/ui';
+import { Typography } from '@aipmui/ui';
 import { Skeleton } from 'antd';
 import { useResponsive } from 'antd-style';
 import isEqual from 'fast-deep-equal';

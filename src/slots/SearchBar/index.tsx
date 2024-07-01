@@ -1,4 +1,4 @@
-import { SearchBar as Input } from '@lobehub/ui';
+import { SearchBar as Input } from '@aipmui/ui';
 import { useSiteSearch } from 'dumi';
 import SearchResult from 'dumi/theme-default/slots/SearchResult';
 import { memo, useState } from 'react';

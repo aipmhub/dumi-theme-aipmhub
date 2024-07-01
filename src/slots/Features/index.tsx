@@ -1,4 +1,4 @@
-import { Features as F } from '@lobehub/ui';
+import { Features as F } from '@aipmui/ui';
 import { useTheme } from 'antd-style';
 import isEqual from 'fast-deep-equal';
 import { memo } from 'react';

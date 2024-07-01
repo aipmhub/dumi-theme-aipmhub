@@ -1,4 +1,4 @@
-import type { FeaturesProps, FooterProps, HeroProps, LogoProps } from '@lobehub/ui';
+import type { FeaturesProps, FooterProps, HeroProps, LogoProps } from '@aipmui/ui';
 import { FooterColumn } from 'rc-footer/es/column';
 
 import type { SiteCustomToken } from '@/styles/customToken';

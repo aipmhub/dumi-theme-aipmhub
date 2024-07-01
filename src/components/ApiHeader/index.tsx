@@ -1,4 +1,4 @@
-import { Icon, Markdown, Snippet } from '@lobehub/ui';
+import { Icon, Markdown, Snippet } from '@aipmui/ui';
 import { Divider, Space, Typography } from 'antd';
 import { useResponsive } from 'antd-style';
 import { Edit3, Github } from 'lucide-react';

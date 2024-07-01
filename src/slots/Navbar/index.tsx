@@ -1,4 +1,4 @@
-import { TabsNav } from '@lobehub/ui';
+import { TabsNav } from '@aipmui/ui';
 import { createStyles } from 'antd-style';
 import { Link, history } from 'dumi';
 import NavbarExtra from 'dumi/theme-default/slots/NavbarExtra';
